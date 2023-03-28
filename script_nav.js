@@ -7,3 +7,7 @@ function ul(index) {
 		underlines[i].style.transform = 'translate3d(' + index * 100 + '%,0,0)';
 	}
 }
+
+function toggleMobileMenu(menu) {
+	menu.classList.toggle('open');
+}

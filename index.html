@@ -7,12 +7,26 @@
     <script src="script_nav.js"></script>
 </head>
 <body>
-<nav class="black">
-  <div class="underline"></div>
-  <div class="underline"></div>
-  <div class="underline"></div>
-  <a onClick="ul(0)">Home</a><a onClick="ul(1)">Videos</a><a onClick="ul(2)">Playlists</a><a onClick="ul(3)">Community</a><a onClick="ul(4)">Channels</a><a onClick="ul(5)">About</a>
-</nav>
+
+    <header>
+        <nav class="black">
+            <div class="underline"></div>
+            <div class="underline"></div>
+            <div class="underline"></div>
+            <a onClick="ul(0)">Home</a><a onClick="ul(1)">Videos</a><a onClick="ul(2)">Playlists</a><a onClick="ul(3)">Community</a><a onClick="ul(4)">Channels</a>
+        </nav>
+    </header>
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
 
     <h1> OUI </h1>
 
